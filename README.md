@@ -40,6 +40,7 @@ Once the program is running, you will be prompted to enter a virtual address for
 📎  File Structure
 
 /virtual-memory-simulation
+
 ├── memory_simulation.c      # Main program implementation
 
 ├── myLib.h                  # Header file with function declarations
