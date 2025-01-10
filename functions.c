@@ -179,14 +179,14 @@ PTE *parse(FILE *stream, Pages *pages) {
     
     initPTE(arr, t, r, d, b);
 
-    char bufer[1024];
-    memset(buf, 0, 1024);
-    printf("Page table entries\n");
-    for(int i = 0; i<count; ++i) {
-        sprintf(bufer, "VA->%.10x. PA->%.10x. w-%d. r-%d. val-%d.\n", arr[i].vaddr, arr[i].paddr, arr[i].w, arr[i].r, arr[i].val);
-        printf("%s", bufer);
-        memset(buf, 0, strlen(buf));
-    }
+    // char bufer[1024];
+    // memset(buf, 0, 1024);
+    // printf("Page table entries\n");
+    // for(int i = 0; i<count; ++i) {
+    //     sprintf(bufer, "VA->%.10x. PA->%.10x. w-%d. r-%d. val-%d.\n", arr[i].vaddr, arr[i].paddr, arr[i].w, arr[i].r, arr[i].val);
+    //     printf("%s", bufer);
+    //     memset(buf, 0, strlen(buf));
+    // }
     return arr;
 }
 
