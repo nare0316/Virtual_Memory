@@ -41,8 +41,11 @@ Once the program is running, you will be prompted to enter a virtual address for
 
 /virtual-memory-simulation
 ├── memory_simulation.c      # Main program implementation
+
 ├── myLib.h                  # Header file with function declarations
+
 ├── README.md                # Project documentation
+
 └── source_file.c            # Sample source file (if any)
 
 
